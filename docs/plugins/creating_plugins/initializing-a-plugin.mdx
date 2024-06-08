@@ -1,0 +1,39 @@
+---
+title: "Initializing A Plugin"
+description: "How to get your plugin started!"
+sidebar_position: 1
+keywords: ["intro"]
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from '@theme/TabItem';
+
+# Plugin Initialization
+
+The first step to making a plugin is to **initialize** it! You can initialize it using our **init** command
+or by doing it **manually**.
+
+<Tabs>
+    <TabItem value="automatically" label="Automatically">
+        Creating your plugin automatically is very easy! Simply run the **following CLI command**.
+        ```bash title="Command Terminal"
+        scaped init (PluginName) (Directory) --typescape (recommended but optional)
+        ```
+
+        We strongly recommend that you learn more about the **__[init](../../commands/commands/init.mdx)__** command.
+    </TabItem>
+    <TabItem value="manually" label="Manually">
+    This is not recommended as there's mostly no advantages to doing this.
+    </TabItem>
+</Tabs>
+
+## What to Do After Initialization
+
+Firstly, we recommend that you check out the **new files** that were created. They do
+give some kind of explanation on how to handle your commands.
+
+:::warning
+If you did your plugin with TypeScript, what follows will remain the same, except the files will be in the "src" directory.
+:::
+
+**This page was last updated in v1.0.0 of Scaped.**
